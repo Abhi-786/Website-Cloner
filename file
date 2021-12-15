@@ -1,0 +1,5 @@
+#!/bin/bash
+wget www.google.com
+cat index.html >filefr
+rm index.html
+firefox filefr
